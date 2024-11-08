@@ -11,8 +11,8 @@ export class Character {
             'Zombie',
         ]
 
-        if ( name && 2 <= name.length <= 10 ) { this.name = name } else { throw new Error('Name is too short / long...') };
-        if ( heroes.includes(type) ) { this.type = type } else { throw new Error('Wrong type of Hero...') };
+        if ( name && 2 <= name.length <= 10 ) { this.name = name } else { throw new Error('Name is too short / long...') }
+        if ( heroes.includes(type) ) { this.type = type } else { throw new Error('Wrong type of Hero...') }
 
         this.health = 100;
         this.level = 1;
